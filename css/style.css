@@ -18,4 +18,55 @@
   top: 50%;
   transform: translate(-50%, -50%);
 } */
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+  color: grey;
+}
 /* fine generali */
+
+/* Header */
+
+.header-top {
+  background-color: #0c325a;
+  height: 700px;
+}
+
+.header-bottom {
+  background-color: #d3d3d3;
+}
+
+.subtitle {
+  width: 80%;
+  margin: auto;
+  padding: 45px 0;
+  text-align: center;
+}
+.subtitle h2 {
+  padding-bottom: 15px;
+}
+/* fine header */
+
+/* Main */
+main > div {
+  height: 500px;
+}
+
+main hr {
+  width: 98%;
+  margin: auto;
+  border-top: 1px solid lightgrey;
+}
+/* fine main */
+
+/* Footer */
+footer {
+  background-color: #d3d3d3;
+  height: 200px;
+}
+/* fine footer */
