@@ -81,13 +81,13 @@ header .header-top .column a {
   color: white;
 }
 
-header .header-top .column nav #cornice-bianca {
+header .header-top .column nav #cornice {
   padding: 12px 40px;
   border: 1px solid white;
   border-radius: 6px;
 }
 
-header .header-top .column .cornice-verde {
+header .header-top .column .cto {
   background-color: #7cbb02;
   padding: 10px 10px;
   border: 1px solid #7cbb02;
@@ -165,6 +165,27 @@ main hr {
   border-top: 1px solid lightgrey;
 }
 /* main bottom */
+main .main-bottom img {
+  height: 530px;
+}
+
+main .main-bottom .column section {
+  float: left;
+  width: 50%;
+}
+
+main .main-bottom .column section h2 {
+  font-size: 40px;
+}
+
+main .main-bottom .column section p {
+  padding: 20px 0;
+}
+
+main .main-bottom .column #main-bottom-right {
+  padding-right: 200px;
+}
+
 /* fine main */
 
 /* FOOTER */
