@@ -28,7 +28,7 @@ h2 {
 p {
   font-size: 25px;
   font-weight: 350;
-  color: grey;
+  color: #808080;
 }
 
 li {
@@ -46,7 +46,7 @@ a {
 
 .cto {
   background-color: #7cbb02;
-  padding: 10px 10px;
+  padding: 10px;
   border: 1px solid #7cbb02;
   border-radius: 6px;
 }
@@ -122,16 +122,13 @@ header .header-bottom .column {
 header .header-bottom .column h2 {
   padding-bottom: 15px;
 }
-
-header .header-bottom .column p {
-  color: #808080;
-}
 /* fine header */
 
 /* MAIN */
 main {
   padding: 40px 0;
 }
+
 /* main top */
 main .main-top {
   text-align: center;
@@ -164,6 +161,7 @@ main hr {
   margin: 50px auto;
   border-top: 1px solid lightgrey;
 }
+
 /* main bottom */
 main .main-bottom img {
   height: 530px;
@@ -212,6 +210,7 @@ footer .column h2{
   font-size: 42px;
 }
 
+/* footer right */
 footer .column #footer-right {
   text-align: right;
   color: #808080;
@@ -236,6 +235,7 @@ footer .column #footer-right select{
   font-size: 25px;
   border-bottom: 1px solid #808080;
 }
+/* fine footer right */
 /* fine footer */
 
 /* Help */
@@ -247,6 +247,6 @@ footer .column #footer-right select{
   text-transform: uppercase;
   font-size: 18px;
   padding: 15px;
-  border-radius: 10% 10% 0 0;
+  border-radius: 8px 8px 0 0;
 }
 /* fine help */
