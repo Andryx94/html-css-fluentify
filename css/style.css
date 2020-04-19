@@ -12,12 +12,9 @@
   clear: both;
 }
 
-/* .classediesempio {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-} */
+body {
+  position: relative;
+}
 
 h1 {
   font-size: 68px;
@@ -240,3 +237,16 @@ footer .column #footer-right select{
   border-bottom: 1px solid #808080;
 }
 /* fine footer */
+
+/* Help */
+.help a {
+  position: fixed;
+  bottom: 0%;
+  right: 16%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 10% 10% 0 0;
+}
+/* fine help */
