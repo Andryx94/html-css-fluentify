@@ -12,10 +12,6 @@
   clear: both;
 }
 
-body {
-  position: relative;
-}
-
 h1 {
   font-size: 68px;
   color: white;
@@ -40,7 +36,7 @@ a {
 }
 
 .column {
-  width: 1500px;
+  width: 80%;
   margin: auto;
 }
 
@@ -135,6 +131,7 @@ main .main-top {
 }
 
 main .main-top img{
+  width: 100%;
   height: 200px;
   margin-bottom: 30px;
 }
@@ -164,6 +161,7 @@ main hr {
 
 /* main bottom */
 main .main-bottom img {
+  width: 100%;
   height: 530px;
 }
 
