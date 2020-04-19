@@ -1,4 +1,4 @@
-/* Generali */
+/* GENERALI */
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +19,10 @@
   transform: translate(-50%, -50%);
 } */
 
+h1 {
+  font-size: 65px;
+  color: white;
+}
 h2 {
   font-size: 35px;
 }
@@ -28,31 +32,98 @@ p {
   font-weight: bold;
   color: grey;
 }
-/* fine generali */
 
-/* Header */
-
-.header-top {
-  background-color: #0c325a;
-  height: 700px;
+li {
+  list-style-type: none;
 }
 
+.column {
+  width: 1500px;
+  margin: auto;
+}
+/* fine generali */
+
+/* HEADER */
+
+/* header top */
+.header-top {
+  background-color: #0c325a;
+  background-image: url(../img/background-header.png);
+  background-repeat: no-repeat;
+  background-position: 115% 100%;
+  background-size: 70%;
+  position: relative;
+  height: 730px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.header-top .column img {
+  float: left;
+  width: 10%;
+}
+
+.header-top .column .navigation {
+  float: left;
+  width: 45%;
+  text-align: right;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.header-top .column .navigation li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.header-top .column a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-top .column .navigation #cornice-bianca {
+  padding: 12px 40px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+.header-top .column .cornice-verde {
+  background-color: #7cbb02;
+  padding: 10px 10px;
+  border: 1px solid #7cbb02;
+  border-radius: 6px;
+}
+
+.header-top .column .title {
+  position: absolute;
+  top: 40%;
+  width: 40%;
+}
+
+.header-top .column .title h1 {
+  margin-bottom: 70px;
+}
+
+.header-top .column .title a {
+  font-size: 20px;
+  padding: 30px;
+  text-transform: uppercase;
+}
+/* header bottom */
 .header-bottom {
   background-color: #d3d3d3;
 }
 
-.subtitle {
-  width: 80%;
-  margin: auto;
-  padding: 45px 0;
+.header-bottom .column {
+  padding: 50px 0;
   text-align: center;
 }
-.subtitle h2 {
+.header-bottom .column h2 {
   padding-bottom: 15px;
 }
 /* fine header */
 
-/* Main */
+/* MAIN */
 main > div {
   height: 500px;
 }
@@ -64,7 +135,7 @@ main hr {
 }
 /* fine main */
 
-/* Footer */
+/* FOOTER */
 footer {
   background-color: #d3d3d3;
   height: 200px;
