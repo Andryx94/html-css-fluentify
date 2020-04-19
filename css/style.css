@@ -38,9 +38,20 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .column {
   width: 1500px;
   margin: auto;
+}
+
+.cto {
+  background-color: #7cbb02;
+  padding: 10px 10px;
+  border: 1px solid #7cbb02;
+  border-radius: 6px;
 }
 /* fine generali */
 
@@ -77,20 +88,12 @@ header .header-top .column nav li {
 }
 
 header .header-top .column a {
-  text-decoration: none;
   color: white;
 }
 
 header .header-top .column nav #cornice {
   padding: 12px 40px;
   border: 1px solid white;
-  border-radius: 6px;
-}
-
-header .header-top .column .cto {
-  background-color: #7cbb02;
-  padding: 10px 10px;
-  border: 1px solid #7cbb02;
   border-radius: 6px;
 }
 
@@ -182,6 +185,10 @@ main .main-bottom .column section p {
   padding: 20px 0;
 }
 
+main .main-bottom .column a {
+  text-decoration:underline;
+}
+
 main .main-bottom .column #main-bottom-right {
   padding-right: 200px;
 }
@@ -192,5 +199,44 @@ main .main-bottom .column #main-bottom-right {
 footer {
   background-color: #d3d3d3;
   height: 200px;
+}
+
+footer .column section{
+  float: left;
+  width: 30%;
+  padding-top: 80px;
+}
+
+footer .column section:last-child{
+  width: 70%;
+}
+
+footer .column h2{
+  font-size: 42px;
+}
+
+footer .column #footer-right {
+  text-align: right;
+  color: #808080;
+}
+
+footer .column #footer-right li {
+ display: inline-block;
+ padding: 0 15px;
+}
+
+footer .column #footer-right .cto{
+  text-transform: uppercase;
+  color: white;
+  padding: 25px 20px;
+}
+
+footer .column #footer-right select{
+  background-color: #d3d3d3;
+  border: none;
+  color: #808080;
+  width: 200px;
+  font-size: 25px;
+  border-bottom: 1px solid #808080;
 }
 /* fine footer */
