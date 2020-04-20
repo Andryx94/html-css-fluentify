@@ -39,7 +39,7 @@ a {
 }
 
 .column {
-  width: 80%;
+  width: 1520px;
   margin: auto;
 }
 
@@ -96,7 +96,7 @@ header .header-top .column nav #cornice {
 header .header-top .column .title {
   position: absolute;
   top: 38%;
-  width: 40%;
+  width: 750px;
 }
 
 header .header-top .column .title h1 {
@@ -243,7 +243,7 @@ footer .column #footer-right select{
 .help a {
   position: fixed;
   bottom: 0%;
-  right: 16%;
+  right: 15%;
   color: white;
   text-transform: uppercase;
   font-size: 18px;
