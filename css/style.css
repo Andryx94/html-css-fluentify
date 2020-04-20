@@ -3,13 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -33,6 +30,12 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .column {
